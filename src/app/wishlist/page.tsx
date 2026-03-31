@@ -36,7 +36,7 @@ export default function Wishlist() {
             <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: '-0.5px' }}>Wishlist</h1>
             <p style={{ fontSize: 15, color: 'var(--ios-label3)' }}>{books.length} books to read</p>
           </div>
-          <button onClick={() => setShowAdd(true)} style={{ padding: '10px 20px', borderRadius: 12, fontSize: 14, fontWeight: 600, border: 'none', cursor: 'pointer', background: 'var(--ios-blue)', color: '#fff' }}>+ Add</button>
+          <button onClick={() => setShowAdd(true)} style={{ padding: '10px 20px', borderRadius: 12, fontSize: 14, fontWeight: 600, border: 'none', cursor: 'pointer', background: 'var(--ios-blue)', color: '#fff', transition: 'transform 150ms ease, opacity 150ms ease' }}>+ Add</button>
         </div>
 
         {showAdd && (

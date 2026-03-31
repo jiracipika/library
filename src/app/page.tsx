@@ -22,7 +22,7 @@ export default function Landing() {
         <h1 style={{ fontSize: 36, fontWeight: 700, color: '#fff', letterSpacing: '-1px', position: 'relative', marginBottom: 8 }}>
           Library
         </h1>
-        <p style={{ fontSize: 16, color: '#fff99', position: 'relative', maxWidth: 400, margin: '0 auto 28px', lineHeight: 1.5 }}>
+        <p style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', position: 'relative', maxWidth: 400, margin: '0 auto 28px', lineHeight: 1.6 }}>
           Track your books, movies & games
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', position: 'relative' }}>
@@ -31,6 +31,7 @@ export default function Landing() {
             background: '#fff', color: '#333', fontSize: 16, fontWeight: 600,
             display: 'inline-flex', alignItems: 'center', textDecoration: 'none',
             boxShadow: '0 4px 14px rgba(0,0,0,0.15)',
+            transition: 'transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease',
           }}>
             Get Started
           </Link>

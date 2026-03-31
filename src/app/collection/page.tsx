@@ -57,6 +57,7 @@ export default function Collection() {
             <button key={t} onClick={() => setTab(t)} style={{
               padding: '6px 14px', borderRadius: 10, fontSize: 13, fontWeight: 500, border: 'none', cursor: 'pointer',
               background: tab === t ? 'var(--ios-label)' : 'var(--ios-bg2)', color: tab === t ? '#fff' : 'var(--ios-label2)',
+              transition: 'background 150ms ease, color 150ms ease, transform 150ms ease',
             }}>{t}</button>
           ))}
         </div>
