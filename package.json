@@ -4,6 +4,8 @@
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "dev": "cd apps/web && next dev",
+    "test": "node --test tests/*.test.cjs",
+    "typecheck": "cd apps/web && tsc --noEmit",
     "build": "cd apps/web && next build",
     "start": "cd apps/web && next start"
   }

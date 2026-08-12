@@ -10,6 +10,7 @@
   --ios-label3: #8E8E93;
   --ios-label4: #C7C7CC;
   --ios-sep: rgba(60,60,67,0.12);
+  --ios-separator: rgba(60,60,67,0.2);
   --ios-blue: #007AFF;
   --ios-green: #34C759;
   --ios-orange: #FF9500;
@@ -24,3 +25,4 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, sans-serif; background: var(--ios-bg); color: var(--ios-label); -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--ios-blue); outline-offset: 2px; }
